@@ -1,5 +1,6 @@
 LTC app project
 ===============
+LTC app - work name of project.
 
 #### 20.09.22 start project
 
