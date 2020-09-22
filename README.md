@@ -10,4 +10,4 @@ Server config:
 - nginx/1.14.0 (Ubuntu)
 - nove v14.11.0
 
-#### URL: [http://15.161.42.176] (http://15.161.42.176)
+#### URL: http://15.161.42.176
