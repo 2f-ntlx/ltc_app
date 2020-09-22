@@ -1,4 +1,5 @@
 /.vscode
 *.*-workspace
 .gitignore
+/node_modules
 
