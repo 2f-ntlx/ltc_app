@@ -1,6 +1,6 @@
-#LTC app project
+# LTC app project
 
-###20.09.22 start project
+### 20.09.22 start project
 
 Server config:
 ==============
@@ -9,4 +9,4 @@ Server config:
 - nginx/1.14.0 (Ubuntu)
 - nove v14.11.0
 
-#####URL: [http://15.161.42.176] (http://15.161.42.176)
+##### URL: [http://15.161.42.176] (http://15.161.42.176)
