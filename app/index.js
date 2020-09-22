@@ -2,7 +2,7 @@ const fastify = require('fastify')({ logger: true });
 console.log('Fastify connect');
 
 // Declare a route
-fastify.get('/app', async (request, reply) => {
+fastify.get('/', async (request, reply) => {
   return { hello: 'LTC app' }
 })
 
