@@ -8,13 +8,14 @@ fastify.get('/*', async (request, reply) => {
   const headers = request.headers;
   const params = request.params;
   const query = request.query;
-  const rawReq = request.raw;
+  const url = request.url;
   
   return {
     Body: body,
     Headers: headers, 
     Params: params, 
-    Query: query
+    Query: query,
+    URL: url
   };
   
 })
