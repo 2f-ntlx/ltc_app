@@ -1,9 +1,22 @@
 const fastify = require('fastify')({ logger: true });
-console.log('Fastify connect');
+console.info('Fastify connect');
 
 // Declare a route
-fastify.get('/', async (request, reply) => {
-  return { hello: 'LTC app' }
+fastify.get('/*', async (request, reply) => {
+  console.info(request);  
+  const body = request.body;
+  const headers = request.headers;
+  const params = request.params;
+  const query = request.query;
+  const rawReq = request.raw;
+  
+  return {
+    Body: body,
+    Headers: headers, 
+    Params: params, 
+    Query: query
+  };
+  
 })
 
 // Run the server!
